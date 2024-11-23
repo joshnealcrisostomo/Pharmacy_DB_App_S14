@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+<head>
+    <title>Manage Product Records</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #3c8dbc;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        h3 {
+            text-align: center;
+            color: #000000;
+            margin-bottom: 1.0rem;
+        }
+        nav {
+            display: grid;
+            margin: 2rem auto;
+            width: 90%;
+            max-width: 600px;
+            background-color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .square {
+            padding: 1rem;
+            border-radius: 8px;
+            background-color: #f4f4f9;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            display: inline-block;
+            text-decoration: none;
+            color: #3c8dbc;
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin: 0.5rem 0;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition: color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffffff;
+            background-color: #3c8dbc;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            font-style: italic;
+            font-size: 12px;
+            padding: 1rem;
+            margin-top: 12rem;
+            color: black;
+            position: relative;
+        }
+        .return-btn {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #800000;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 2rem;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .return-btn:hover {
+            background-color: #FF7F7F;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MANAGE PRODUCT RECORDS</h1>
+    </header>
+    <nav>
+        <div class="square">
+            <h3>MANAGE PRODUCT INFORMATION</h3>
+            <a href="addProduct.html">Add a Product Record</a>
+            <a href="removeProduct.jsp">Remove a Product Record</a>
+            <a href="updateProduct.jsp">Update a Product Record</a>
+            <a href="viewProduct.jsp">View Product Records</a>
+        </div>
+    </nav>
+    <div class="square">
+        <a href="../index.html" class="return-btn">Return to Main Menu</a>
+    </div>
+    <footer>
+        &copy; 2024. Crisostomo, Lim, Dularte, Sadey.
+    </footer>
+</body>
+</html>
